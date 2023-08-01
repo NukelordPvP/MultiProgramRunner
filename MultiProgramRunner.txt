@@ -1,8 +1,8 @@
-# Delay is in Seconds
-GLOBAL_DELAY:5
+# Delay in seconds between each file
+GLOBAL_DELAY:10
 
-# Jar list and ;num = override GLOBAL_DELAY and use jar specific delay and if ;empty then it will use GLOBAL_DELAY.
-JARS:
-Blood-N-Wine-2-Curseforge-Export.jar;5
-Blood-N-Wine-2-Server-Export.jar;5
-Blood-N-Wine-2-Technic-Export.jar;
+# Files to run and their delay
+FILE:file1.txt:3
+FILE:file2.txt:5
+FILE:file3.txt:2
+FILE:file4.txt:4
